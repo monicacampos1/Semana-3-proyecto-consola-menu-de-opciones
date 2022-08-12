@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Semana_3_proyecto_consola_menu
 {
-    class Ejemplo_if
+    class Ejemplo_while
     {
+
+        public static void estructura_while()
+        {
+            System.Console.WriteLine("while externo");
+        }
+
     }
 }

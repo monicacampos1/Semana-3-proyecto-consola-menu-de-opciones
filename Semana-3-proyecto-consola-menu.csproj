@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejemplo-dowhile.cs" />
-    <Compile Include="Ejemplo-for.cs" />
-    <Compile Include="Ejemplo-if.cs" />
-    <Compile Include="Ejemplo-switch.cs" />
-    <Compile Include="Ejemplo-while.cs" />
+    <Compile Include="Ejemplo_dowhile.cs" />
+    <Compile Include="Ejemplo_for.cs" />
+    <Compile Include="Ejemplo_if.cs" />
+    <Compile Include="Ejemplo_switch.cs" />
+    <Compile Include="Ejemplo_while.cs" />
     <Compile Include="menu.cs" />
     <Compile Include="principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

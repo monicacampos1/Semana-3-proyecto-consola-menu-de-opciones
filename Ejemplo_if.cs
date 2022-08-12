@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Semana_3_proyecto_consola_menu
 {
-    class Ejemplo_dowhile
+    class Ejemplo_if
     {
+
+        public static void estructura_if()
+        {
+            System.Console.WriteLine("if externo");
+        }
+
     }
 }
