@@ -4,15 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Semana_3_proyecto_consola_menu
+
 {
+ 
     class principal
     {
+
             static void Main(string[] args)
             {
 
-                System.Console.WriteLine("Proyecto de Menu");
-                System.Console.WriteLine("Primer Programa Usando Estructuras");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.Title = "Programa de menu  \n\n";
+
+            System.Console.WriteLine("Proyecto de Menu \n");
+                System.Console.WriteLine("Grupos de trabajo ");
 
                 System.Console.ReadKey();
 
@@ -24,7 +33,8 @@ namespace Semana_3_proyecto_consola_menu
                 {
                     menu_interno();
 
-                    System.Console.WriteLine("Ingrese 1 para repetir menú");
+                    System.Console.WriteLine("\nIngrese 1 para repetir menú");
+
                     System.Console.WriteLine("Ingrese 2 para salir");
                     repetir = Int32.Parse(Console.ReadLine());
 
@@ -39,12 +49,13 @@ namespace Semana_3_proyecto_consola_menu
                 string opcion;
                 int opcionint;
 
-                System.Console.WriteLine("Menu Principal");
-                System.Console.WriteLine("1. Ejemplo If");
-                System.Console.WriteLine("2. Ejemplo Switch");
-                System.Console.WriteLine("3. Ejemplo For");
-                System.Console.WriteLine("4. Ejemplo Wor");
-                System.Console.WriteLine("5. Ejemplo Do While");
+                System.Console.WriteLine("\nMenu Grupos");
+            Console.WriteLine("------------------------");    
+            System.Console.WriteLine("1. Primer Grupo ");
+                System.Console.WriteLine("2. Segundo Grupo");
+                System.Console.WriteLine("3. Tercer Grupo");
+                System.Console.WriteLine("4. Cuarto grupo");
+                System.Console.WriteLine("5. Quinto grupo");
 
                 System.Console.WriteLine("Selecciona tu opcion: ");
                 opcion = Console.ReadLine();
@@ -85,32 +96,32 @@ namespace Semana_3_proyecto_consola_menu
             //Función interna para ejemplo if
             static void programa_if()
             {
-                System.Console.WriteLine("Aqui llamo ejemplo If");
+                System.Console.WriteLine("\nLos integrantes son : Daniel, Tania, Roberto");
 
             }
 
             //Función interna para ejemplo switch
             static void programa_switch()
             {
-                System.Console.WriteLine("Aqui llamo ejemplo Switch");
+                System.Console.WriteLine(" \nLos integrantes son : Monica,Cristian,Ivania \n");
             }
 
             //Función interna para ejemplo for
             static void programa_for()
             {
-                System.Console.WriteLine("Aqui llamo ejemplo For");
+                System.Console.WriteLine("\nLos integrantes son : Gustavo,Fredy,Lorena\n");
             }
 
             //Función interna para ejemplo while
             static void programa_while()
             {
-                System.Console.WriteLine("Aqui llamo ejemplo While");
+                System.Console.WriteLine("\nLos integrantes son : Salvador, Carlos, Dayana \n");
             }
 
             //Función interna para ejemplo dowhile
             static void programa_dowhile()
             {
-                System.Console.WriteLine("Aqui llamo ejemplo DoWhile");
+                System.Console.WriteLine("\nLos integrantes son : Jose,Maria, Paola\n");
             }
 
             //Fin de funciones internas
